@@ -26,6 +26,9 @@ alias gcd='git checkout develop'
 alias gch='git checkout hotfix'
 alias gcr='git checkout release'
 
+alias gfl-feat='git flow feature'
+alias gfl-rel='git flow release'
+
 _git-flow ()
 {
 	local curcontext="$curcontext" state line
