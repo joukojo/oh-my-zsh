@@ -39,6 +39,9 @@ alias gflrf='git flow release finish'
 alias gfl-feat='git flow feature'
 alias gfl-rel='git flow release'
 
+alias gfl-feat='git flow feature'
+alias gfl-rel='git flow release'
+
 _git-flow ()
 {
 	local curcontext="$curcontext" state line
